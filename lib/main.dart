@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gpacalculate/constants.dart';
+import 'package:gpacalculate/components/constants.dart';
 import 'package:gpacalculate/logic/main_logic.dart';
 import 'package:gpacalculate/screens/main_screen.dart';
 import 'package:provider/provider.dart';
@@ -24,7 +24,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'GPA',
       theme: ThemeData(
-
         primarySwatch: MaterialColor(
           int.parse(
             'FF009788',

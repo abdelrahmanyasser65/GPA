@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gpacalculate/constants.dart';
+import 'package:gpacalculate/components/constants.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -21,7 +21,9 @@ class MainScreen extends StatelessWidget {
           itemCount: title.length,
           separatorBuilder: (context, index) => const SizedBox(),
           itemBuilder: (BuildContext context, int index) => InkWell(
-            onTap: () {},
+            onTap: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context)=>screens[index]));
+            },
             child: Container(
               height: 150,
               margin: const EdgeInsets.only(top: 15),
