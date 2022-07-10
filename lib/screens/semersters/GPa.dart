@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import 'package:gpacalculate/components/constants.dart';
 import 'package:flutter/material.dart';
 
@@ -9,17 +8,10 @@ class GPAScreen extends StatelessWidget {
   final pointsController = TextEditingController();
 
   GPAScreen({Key? key}) : super(key: key);
-=======
-import 'package:flutter/material.dart';
-import 'package:gpacalculate/components/constants.dart';
-class GPAScreen extends StatelessWidget {
-  const GPAScreen({Key? key}) : super(key: key);
->>>>>>> ae5bec4 (abdelrahman 7/10)
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-<<<<<<< HEAD
       backgroundColor: Colors.white.withOpacity(0.9),
       appBar: AppBar(
         title: Text(titleScreens[0], style: appBarStyle),
@@ -119,12 +111,6 @@ class GPAScreen extends StatelessWidget {
           ],
         ),
       ),
-=======
-      appBar: AppBar(
-        title: Text(titleScreens[0],style:appBarStyle),
-      ),
-      body: null,
->>>>>>> ae5bec4 (abdelrahman 7/10)
     );
   }
 }
