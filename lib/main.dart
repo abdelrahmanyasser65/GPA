@@ -21,8 +21,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'GPA',
       theme: ThemeData(
+
         primarySwatch: MaterialColor(
           int.parse(
             'FF009788',
