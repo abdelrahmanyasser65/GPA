@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:gpacalculate/screens/add_semester.dart';
+import 'package:gpacalculate/screens/all_courses.dart';
+import 'package:gpacalculate/screens/main_screen.dart';
+import 'package:gpacalculate/screens/gpa_calculator.dart';
 
 import '../screens/semersters/GPa.dart';
 import '../screens/semersters/level1/semester1.dart';
@@ -50,6 +54,12 @@ List title=[
   'Level 4',
   'Level 4',
 ];
+List level=[
+  'Level 1',
+  'Level 2',
+  'Level 3',
+  'Level 4',
+];
 List subTitle=[
   '',
   'semester 1',
@@ -65,11 +75,22 @@ List subTitle=[
   'semester 2',
   'summer course',
 ];
+List semester=[
+  'semester 1',
+  'semester 2',
+  'summer course',
+];
 List titleScreens=[
   'GPA',
   'Semester 1',
   'Semester 2 ',
   'Summer Course',
+];
+List drawerTitle=[
+  'GPA history',
+  'Add semester',
+  'All courses',
+  'GPA calculator',
 ];
 List<Widget>screens=[
   GPAScreen(),
@@ -86,3 +107,10 @@ List<Widget>screens=[
   const Semester42Screen(),
   const SummerCourse4Screen(),
 ];
+List<Widget>drawerWidgets= const[
+  MainScreen(),
+  AddSemester(),
+  AllCourses(),
+  GpaCalculator(),
+];
+
