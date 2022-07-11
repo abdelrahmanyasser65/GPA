@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:gpacalculate/screens/add_semester.dart';
-import 'package:gpacalculate/screens/all_courses.dart';
+import 'package:gpacalculate/screens/drawer/add_semester.dart';
+import 'package:gpacalculate/screens/drawer/all_courses.dart';
 import 'package:gpacalculate/screens/main_screen.dart';
-import 'package:gpacalculate/screens/gpa_calculator.dart';
+import 'package:gpacalculate/screens/drawer/gpa_calculator.dart';
 
 import '../screens/semersters/GPa.dart';
 import '../screens/semersters/level1/semester1.dart';

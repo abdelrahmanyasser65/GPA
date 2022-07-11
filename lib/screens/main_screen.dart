@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:gpacalculate/components/constants.dart';
-
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
 

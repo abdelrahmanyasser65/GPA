@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gpacalculate/components/constants.dart';
-import 'package:gpacalculate/screens/drawer.dart';
+import 'package:gpacalculate/screens/drawer/drawer.dart';
 
 class AddSemester extends StatelessWidget {
   const AddSemester({Key? key}) : super(key: key);
