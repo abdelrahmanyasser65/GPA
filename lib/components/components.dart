@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-Widget  buildTextFormField(controller,hint,) {
+Widget  buildTextFormField(controller,hint,validator) {
   return SizedBox(
     height: 50,
     child: TextFormField(
+      validator: validator,
       focusNode: FocusNode(),
       cursorColor: Colors.black,
       style:const TextStyle(
