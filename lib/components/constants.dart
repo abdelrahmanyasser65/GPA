@@ -113,4 +113,10 @@ List<Widget>drawerWidgets= const[
   AllCourses(),
   GpaCalculator(),
 ];
+List <String>listTitle=[
+  'A+', 'A', 'A-',
+  'B+', 'B', 'B-',
+  'C+', 'C', 'C-',
+  'D+', 'D', 'F'
+];
 
